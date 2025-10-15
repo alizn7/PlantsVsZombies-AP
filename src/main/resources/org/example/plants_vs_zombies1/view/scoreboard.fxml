@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.plants_vs_zombies1.controller.ScoreboardController"
+            prefWidth="1000.0" prefHeight="750.0"
+            style="-fx-background-color: linear-gradient(to bottom right, #1e2a38, #273946);">
+
+    <Label layoutX="400.0" layoutY="40.0" text="🏆 Scoreboard"
+           style="-fx-font-size: 32px; -fx-text-fill: #fefefe; -fx-font-family: 'Creepster'; -fx-font-weight: bold;"/>
+
+    <TableView fx:id="scoreTable" layoutX="60.0" layoutY="100.0" prefWidth="880.0" prefHeight="530.0"
+               style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;">
+        <columns>
+            <TableColumn fx:id="rankCol" text="Rank" prefWidth="60"/>
+            <TableColumn fx:id="usernameCol" text="Username" prefWidth="120"/>
+            <TableColumn fx:id="levelCol" text="Level" prefWidth="80"/>
+            <TableColumn fx:id="winsCol" text="Wins" prefWidth="80"/>
+            <TableColumn fx:id="lossesCol" text="Losses" prefWidth="80"/>
+            <TableColumn fx:id="scoreCol" text="Score" prefWidth="100"/>
+            <TableColumn fx:id="lastPlayedCol" text="Last Played" prefWidth="160"/>
+            <TableColumn fx:id="unlockedPlantsCol" text="Plants" prefWidth="200"/>
+        </columns>
+    </TableView>
+
+    <Button text="⬅ Back" layoutX="40.0" layoutY="680.0" prefWidth="100"
+            onAction="#onBack"
+            style="-fx-background-color: #ef233c; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 8;"/>
+</AnchorPane>

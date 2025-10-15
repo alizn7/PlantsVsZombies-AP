@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.media.MediaView?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.plants_vs_zombies1.controller.RegisterVideoController"
+            prefWidth="800.0" prefHeight="600.0"
+            style="-fx-background-color: black;">
+    <MediaView fx:id="mediaView" fitWidth="800.0" fitHeight="600.0"/>
+</AnchorPane>

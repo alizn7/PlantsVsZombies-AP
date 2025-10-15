@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.plants_vs_zombies1.controller.GameController">
+
+    <ImageView fx:id="backgroundImage" fitHeight="600.0" fitWidth="1080.0" pickOnBounds="true" preserveRatio="false">
+        <image>
+            <Image url="@/day2.jpg"/>
+        </image>
+    </ImageView>
+
+    <GridPane fx:id="gameGrid" gridLinesVisible="false" hgap="0" layoutX="250.0" layoutY="74.0" prefHeight="487.0"
+              prefWidth="719.0" vgap="0">
+        <columnConstraints>
+            <ColumnConstraints percentWidth="11.0"/>
+            <ColumnConstraints percentWidth="11.0"/>
+            <ColumnConstraints percentWidth="12.0"/>
+            <ColumnConstraints percentWidth="11.0"/>
+            <ColumnConstraints percentWidth="10.549999999999997"/>
+            <ColumnConstraints percentWidth="11.0"/>
+            <ColumnConstraints percentWidth="10.0"/>
+            <ColumnConstraints percentWidth="12.0"/>
+            <ColumnConstraints percentWidth="11.440000000000001"/>
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints percentHeight="20.0"/>
+            <RowConstraints percentHeight="20.0"/>
+            <RowConstraints percentHeight="20.0"/>
+            <RowConstraints percentHeight="20.0"/>
+            <RowConstraints percentHeight="20.0"/>
+        </rowConstraints>
+    </GridPane>
+
+    <Pane fx:id="sunPane" layoutX="0" layoutY="0" pickOnBounds="false" prefHeight="600.0" prefWidth="1080.0">
+        <children>
+            <Label fx:id="sunLabel" layoutX="209.0" layoutY="8.0" prefHeight="34.0" prefWidth="77.0"
+                   style="-fx-font-size: 22px; -fx-font-weight: bold;" text=" 50"/>
+            <Label fx:id="statusLabel" layoutX="771.0" layoutY="559.0"
+                   style="-fx-font-size: 18px; -fx-text-fill: white;" text="Level 1 - Day | Waves: 3"/>
+            <Button fx:id="backButton" layoutX="938.0" layoutY="3.0" prefHeight="44.0" prefWidth="134.0"
+                    style="-fx-background-color: transparent; -fx-border-color: transparent; -fx-text-fill: white; -fx-font-weight: bold;"/>
+        </children>
+    </Pane>
+
+    <VBox fx:id="plantSelectionBox" layoutX="-3.0" layoutY="10.0" prefHeight="580.0" prefWidth="134.0" spacing="20"
+          style="-fx-background-color: rgba(0,0,0,0.3); -fx-padding: 10;">
+    </VBox>
+
+</AnchorPane>
