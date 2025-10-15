@@ -111,15 +111,18 @@ src/screenshots
 Clone the repository:
 
 git clone https://github.com/alizn7/PlantsVsZombies-AP.git
+
 cd PlantsVsZombies-AP
 
 
 1.Open in IntelliJ IDEA
+
 2.Ensure JavaFX SDK(21 recommended) and MySQL server are properly configured (you can use XAMPP control panel)
+
 3.Run the Main class (JavaFX Application)
 
 
-
+---
 
 🧩 Extensibility
 
@@ -129,23 +132,30 @@ Game loop logic automatically integrates new units
 New levels can be defined via LevelConfig classes or FXMLs
 Modular design follows SOLID and OOP best practices
 
+---
 
 🎓 Academic Context
 
 📘 Developed as the final project for the Advanced Programming (AP) course
+
 🏫 Department of Computer Engineering, University of Isfahan — Spring 2025
+
 👨‍💻 Individual coursework with full JavaFX implementation
 
-
+---
 
 💬 Author
+
 Ali Zandian
+
 🎓 Computer Engineering Student — University of Isfahan
+
 📫 GitHub: @alizn7
 
-
+---
 
 🪴 License
+
 This project is open for educational and non-commercial use.
 
 
