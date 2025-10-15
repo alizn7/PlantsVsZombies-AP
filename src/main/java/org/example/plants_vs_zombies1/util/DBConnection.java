@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-    private static final String URL = "jdbc:mysql://localhost:3306/plants_vs_zombies?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";
-    private static final String PASSWORD = "";
+    private static final String URL = "the url";
+    private static final String USER = "user";
+    private static final String PASSWORD = "the password";
 
     private static Connection connection = null;
 

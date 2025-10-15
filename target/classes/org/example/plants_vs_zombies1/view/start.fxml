@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="rootPane" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12"
+           xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="org.example.plants_vs_zombies1.controller.StartController">
+
+    <AnchorPane prefHeight="750.0" prefWidth="1000.0">
+        <children>
+
+            <ImageView fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="false">
+                <image>
+                    <Image url="@/menu.jpg"/>
+                </image>
+            </ImageView>
+
+            <Label fx:id="loginStatusLabel" layoutX="107.0" layoutY="110.0" prefHeight="27.0" prefWidth="237.0"
+                   style="-fx-font-size: 18px; -fx-text-fill: white; -fx-font-family: 'Creepster'; -fx-font-weight: bold; -fx-effect: dropshadow(gaussian, black, 4, 0.5, 1, 1); -fx-rotate: -3;"
+                   text="Welcome! Please login."/>
+
+            <Button fx:id="adventureButton" layoutX="465.0" layoutY="119.0" onAction="#onAdventureClicked"
+                    prefHeight="91.0" prefWidth="473.0"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-size: 28px; -fx-font-family: 'Creepster'; -fx-effect: dropshadow(gaussian, black, 6, 0.6, 2, 2); -fx-rotate: -4;"/>
+
+            <Button fx:id="loginButton" layoutX="478.0" layoutY="260.0" onAction="#onLoginClicked" prefHeight="60.0"
+                    prefWidth="426.0"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-family: 'Creepster'; -fx-font-size: 24px; -fx-effect: dropshadow(gaussian, black, 4, 0.5, 1, 1); -fx-rotate: -3;"/>
+
+            <Button fx:id="registerButton" layoutX="526.0" layoutY="362.0" onAction="#onRegisterClicked"
+                    prefHeight="50.0" prefWidth="299.0"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-family: 'Creepster'; -fx-font-size: 24px; -fx-effect: dropshadow(gaussian, black, 4, 0.5, 1, 1); -fx-rotate: -4;"/>
+
+            <Button fx:id="scoreboardButton" layoutX="526.0" layoutY="455.0" onAction="#onScoreboardClicked"
+                    prefHeight="50.0" prefWidth="299.0"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-family: 'Creepster'; -fx-font-size: 24px; -fx-effect: dropshadow(gaussian, black, 4, 0.5, 1, 1); -fx-rotate: -4;"/>
+
+            <Button fx:id="optionsButton" layoutX="707.0" layoutY="611.0" onAction="#onOptionsClicked" prefHeight="40"
+                    prefWidth="100"
+                    style="-fx-background-color: transparent; -fx-text-fill: white; -fx-font-family: 'Comic Sans MS'; -fx-font-weight: bold; -fx-font-size: 14px; -fx-rotate: -6;"
+                    text="    "/>
+
+            <Button fx:id="quitButton" layoutX="884.0" layoutY="646.0" onAction="#onQuitClicked" prefHeight="36.0"
+                    prefWidth="100.0" style="-fx-background-color: transparent;"/>
+        </children>
+    </AnchorPane>
+</StackPane>

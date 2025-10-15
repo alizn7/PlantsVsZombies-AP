@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="settingsRoot" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.plants_vs_zombies1.controller.SettingsController">
+
+    <StackPane alignment="CENTER" layoutX="200" layoutY="50" prefHeight="650" prefWidth="600">
+
+        <ImageView fitHeight="650" fitWidth="600" pickOnBounds="true" preserveRatio="false">
+            <image>
+                <Image url="@/setting.jpg"/>
+            </image>
+        </ImageView>
+
+        <VBox alignment="CENTER" prefHeight="648.0" prefWidth="699.0" spacing="15">
+
+            <CheckBox fx:id="musicCheckBox" prefHeight="83.0" prefWidth="207.0"
+                      style="-fx-text-fill: white; -fx-font-size: 18px; -fx-font-family: 'Comic Sans MS'; -fx-effect: dropshadow(gaussian, black, 3, 0.5, 1, 1);"
+                      text="🔊 Background Music"/>
+
+            <CheckBox fx:id="sfxCheckBox" prefHeight="72.0" prefWidth="179.0"
+                      style="-fx-text-fill: white; -fx-font-size: 18px; -fx-font-family: 'Comic Sans MS'; -fx-effect: dropshadow(gaussian, black, 3, 0.5, 1, 1);"
+                      text="💥 Sound Effects"/>
+
+            <Button fx:id="togglePasswordButton" onAction="#onTogglePassword" prefHeight="91.0" prefWidth="168.0"
+                    style="-fx-background-color: rgba(255,255,255,0.2); -fx-text-fill: white; -fx-font-size: 16px; -fx-font-family: 'Comic Sans MS'; -fx-background-radius: 8;"
+                    text="🔒 Change Password"/>
+
+            <PasswordField fx:id="passwordField" prefHeight="49.0" prefWidth="600.0" promptText="New Password"
+                           style="-fx-font-size: 14px; -fx-background-radius: 8; -fx-background-color: rgba(255,255,255,0.85); -fx-padding: 6;"
+                           visible="false"/>
+
+            <Button fx:id="okButton" onAction="#onSaveClicked" prefHeight="69.0" prefWidth="100"
+                    style="-fx-background-color: transparent; -fx-text-fill: #90ee90; -fx-font-family: 'Creepster'; -fx-font-size: 26px; -fx-effect: dropshadow(gaussian, black, 4, 0.6, 2, 2);"/>
+
+        </VBox>
+
+    </StackPane>
+</AnchorPane>

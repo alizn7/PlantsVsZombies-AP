@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="org.example.plants_vs_zombies1.controller.OptionsMenuController">
+
+    <ImageView fx:id="backgroundImage" fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="false">
+        <image>
+            <Image url="@/menu2.jpg"/>
+        </image>
+    </ImageView>
+
+    <CheckBox fx:id="musicCheckBox" layoutX="294.0" layoutY="176.0" style="-fx-font-size: 18px; -fx-text-fill: white;"
+              text="🔊 Background Music"/>
+
+    <CheckBox fx:id="sfxCheckBox" layoutX="294.0" layoutY="223.0" style="-fx-font-size: 18px; -fx-text-fill: white;"
+              text="💥 Sound Effects"/>
+
+    <Button fx:id="backToGameButton" layoutX="148.0" layoutY="449.0" onAction="#onBackToGame" prefHeight="38.0"
+            prefWidth="203.0"
+            style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: transparent;"/>
+
+    <Button fx:id="restartLevelButton" layoutX="429.0" layoutY="449.0" onAction="#onRestartLevel" prefHeight="38.0"
+            prefWidth="236.0"
+            style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: transparent;"/>
+
+    <Button fx:id="mainMenuButton" layoutX="285.0" layoutY="507.0" onAction="#onMainMenu" prefHeight="55.0"
+            prefWidth="193.0"
+            style="-fx-font-size: 16px; -fx-text-fill: white; -fx-background-color: transparent; -fx-border-color: transparent;"/>
+
+</AnchorPane>

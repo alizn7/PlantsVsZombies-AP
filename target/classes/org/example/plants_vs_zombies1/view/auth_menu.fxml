@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="org.example.plants_vs_zombies1.controller.AuthMenuController"
+           prefWidth="800.0" prefHeight="600.0"
+           fx:id="rootPane">
+
+    <MediaView fx:id="mediaView" fitWidth="800.0" fitHeight="600.0"/>
+
+    <VBox alignment="CENTER" spacing="25"
+          style="-fx-background-color: rgba(46, 62, 28, 0.8); -fx-background-radius: 20; -fx-padding: 30;">
+        <children>
+
+            <Label text="🌻 Plants vs Zombies 🌻"
+                   style="-fx-font-size: 30px; -fx-font-weight: bold; -fx-text-fill: #ffb703;" />
+
+            <Button text="Login"
+                    onAction="#onLoginClicked"
+                    prefWidth="200"
+                    style="-fx-background-color: linear-gradient(to right, #6a994e, #386641); -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 16px; -fx-font-weight: bold;" />
+
+            <Button text="Register"
+                    onAction="#onRegisterClicked"
+                    prefWidth="200"
+                    style="-fx-background-color: linear-gradient(to right, #ffb703, #fb8500); -fx-text-fill: white; -fx-background-radius: 10; -fx-font-size: 16px; -fx-font-weight: bold;" />
+
+        </children>
+    </VBox>
+</StackPane>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="831f758d-3971-4582-9cdf-24cff602b391" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Exception" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alizn7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AP-UI-2025/final-project-alizn7&quot;,
+    &quot;accountId&quot;: &quot;5d553dd1-dfd4-46ff-8146-1a397e34d9f0&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2zYb7AXw6L1hEQQFNqVxyVVQi5t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DedicatedTests.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FullCharacterTestMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestDBConnection.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestGameService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestGameServiceMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSaveLoadService.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ChatTagsLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ClientConfigCleanupMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountHistoryMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAccountsIdsRefresh&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyAssignOrphanedChatsToActiveAccount&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyConvertUrlToCodebaseName&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyHistoryLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyMigrateChatHistory-v2&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.CodyProjectSettingsMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.DeprecatedChatLlmMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ToggleCodyToolWindowAfterMigration&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ali-zn/IdeaProjects/AmadeSaziGame1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ali-zn\IdeaProjects\plants_vs_zombies1\src\main\resources\media" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ali-zn\IdeaProjects\plants_vs_zombies1\src\main\resources" />
+      <recent name="C:\Users\ali-zn\IdeaProjects\plants_vs_zombies1\src\main\resources\media" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="831f758d-3971-4582-9cdf-24cff602b391" name="Changes" comment="" />
+      <created>1751910787564</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751910787564</updated>
+      <workItem from="1751910788775" duration="7000" />
+      <workItem from="1751969890208" duration="1176000" />
+      <workItem from="1751983102145" duration="475000" />
+      <workItem from="1752048545725" duration="2877000" />
+      <workItem from="1752063831989" duration="2380000" />
+      <workItem from="1752070868720" duration="5306000" />
+      <workItem from="1752221827168" duration="648000" />
+      <workItem from="1752222513583" duration="3313000" />
+      <workItem from="1752233816495" duration="12363000" />
+      <workItem from="1752249918378" duration="1978000" />
+      <workItem from="1752257172237" duration="2393000" />
+      <workItem from="1752303395385" duration="4281000" />
+      <workItem from="1752321197539" duration="7099000" />
+      <workItem from="1752340918281" duration="4700000" />
+      <workItem from="1752347423869" duration="785000" />
+      <workItem from="1752399038220" duration="71000" />
+      <workItem from="1752400949524" duration="2861000" />
+      <workItem from="1752413924953" duration="9853000" />
+      <workItem from="1752481140913" duration="2111000" />
+      <workItem from="1752497314597" duration="1590000" />
+      <workItem from="1752515737340" duration="1699000" />
+      <workItem from="1752566784150" duration="617000" />
+      <workItem from="1752580140489" duration="2465000" />
+      <workItem from="1752650078902" duration="4963000" />
+      <workItem from="1752669910396" duration="9272000" />
+      <workItem from="1752680854630" duration="368000" />
+      <workItem from="1752774824344" duration="76000" />
+      <workItem from="1752775009260" duration="3000" />
+      <workItem from="1752861007292" duration="640000" />
+      <workItem from="1752912836949" duration="2293000" />
+      <workItem from="1752916370167" duration="580000" />
+      <workItem from="1752918776189" duration="2085000" />
+      <workItem from="1753000581064" duration="284000" />
+      <workItem from="1753087755842" duration="1464000" />
+      <workItem from="1753100150030" duration="11106000" />
+      <workItem from="1753178841182" duration="9602000" />
+      <workItem from="1753269746307" duration="3856000" />
+      <workItem from="1753275405034" duration="148000" />
+      <workItem from="1753347021106" duration="182000" />
+      <workItem from="1753347827627" duration="292000" />
+      <workItem from="1753348146617" duration="7041000" />
+      <workItem from="1753358521252" duration="1075000" />
+      <workItem from="1753359643379" duration="289000" />
+      <workItem from="1753359943928" duration="3601000" />
+      <workItem from="1753373830204" duration="720000" />
+      <workItem from="1753444051594" duration="3431000" />
+      <workItem from="1753527174463" duration="23810000" />
+      <workItem from="1753564292888" duration="1661000" />
+      <workItem from="1753605588756" duration="1394000" />
+      <workItem from="1753623486215" duration="5477000" />
+      <workItem from="1753636807867" duration="3312000" />
+      <workItem from="1753641058722" duration="1963000" />
+      <workItem from="1753643056420" duration="2411000" />
+      <workItem from="1753645488428" duration="288000" />
+      <workItem from="1753645818581" duration="706000" />
+      <workItem from="1753694965883" duration="988000" />
+      <workItem from="1753699139571" duration="2984000" />
+      <workItem from="1753714450724" duration="7157000" />
+      <workItem from="1753728152439" duration="3740000" />
+      <workItem from="1753775545414" duration="7986000" />
+      <workItem from="1753792662848" duration="10802000" />
+      <workItem from="1753812906530" duration="2630000" />
+      <workItem from="1753862626667" duration="5000000" />
+      <workItem from="1753880236479" duration="9140000" />
+      <workItem from="1753947365214" duration="595000" />
+      <workItem from="1753967659196" duration="4922000" />
+      <workItem from="1754032653459" duration="2074000" />
+      <workItem from="1754129437185" duration="2459000" />
+      <workItem from="1754219051569" duration="97000" />
+      <workItem from="1754221177178" duration="3763000" />
+      <workItem from="1754297276898" duration="3661000" />
+      <workItem from="1754341972728" duration="2101000" />
+      <workItem from="1754349819175" duration="3962000" />
+      <workItem from="1754502369338" duration="4639000" />
+      <workItem from="1754554161767" duration="9125000" />
+      <workItem from="1754564376717" duration="12387000" />
+      <workItem from="1754581809284" duration="2452000" />
+      <workItem from="1754584546191" duration="1743000" />
+      <workItem from="1754644719161" duration="7518000" />
+      <workItem from="1754729267390" duration="8713000" />
+      <workItem from="1754749737499" duration="150000" />
+      <workItem from="1754750013894" duration="2862000" />
+      <workItem from="1755192862200" duration="391000" />
+      <workItem from="1755193272130" duration="4000" />
+      <workItem from="1755426846986" duration="702000" />
+      <workItem from="1755427815344" duration="626000" />
+      <workItem from="1755457667828" duration="2000" />
+      <workItem from="1755935798728" duration="596000" />
+      <workItem from="1755953502780" duration="2000" />
+      <workItem from="1756800020056" duration="32000" />
+      <workItem from="1760535890808" duration="2210000" />
+    </task>
+    <task id="LOCAL-00001" summary="commiting collisions">
+      <option name="closed" value="true" />
+      <created>1754343548955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754343548955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commiting collisions" />
+    <option name="LAST_COMMIT_MESSAGE" value="commiting collisions" />
+  </component>
+</project>
