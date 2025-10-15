@@ -79,8 +79,11 @@ The project uses **MySQL** through **phpMyAdmin**.
 A `DBConnection` singleton class manages the connection.
 
 Example default configuration:
+
 String url = "jdbc:mysql://localhost:3306/plants_vs_zombies";
+
 String user = "root";
+
 String password = "";
 
 
@@ -95,7 +98,8 @@ Settings / progress
 ---
 
 🖼️ Screenshots
-<p align="center"> <img src="src/screenshots/login.png" width="30%" alt="Login Screen"/> <img src="src/screenshots/home.png" width="30%" alt="Home Menu"/> <img src="src/screenshots/levels.png" width="30%" alt="Levels Menu"/> </p> <p align="center"> <img src="src/screenshots/board.png" width="45%" alt="Game Board"/> <img src="src/screenshots/setting.png" width="45%" alt="Settings Screen"/> </p>
+<p align="center"> <img src="src/screenshots/login.png" width="30%" alt="Login Screen"/> <img src="src/screenshots/register.png" width="30%" alt="Register Screen"/> <img src="src/screenshots/home.png" width="30%" alt="Home Menu"/> </p> <p align="center"> <img src="src/screenshots/levels.png" width="30%" alt="Levels Menu"/> <img src="src/screenshots/board.png" width="30%" alt="Game Board"/> <img src="src/screenshots/gameSetting.png" width="30%" alt="Game Settings"/> </p> <p align="center"> <img src="src/screenshots/scoreboard.png" width="45%" alt="Scoreboard"/> <img src="src/screenshots/setting.png" width="45%" alt="General Settings"/> </p>
+
 
 🎥 Gameplay Demo:
 A short demo video (gameview.mp4, 50 MB) is available inside
