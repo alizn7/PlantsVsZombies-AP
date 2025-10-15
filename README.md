@@ -38,39 +38,39 @@ src/
 ├── main/
 
 │ ├── java/
-
+│
 │ │ ├── controller/ # JavaFX controllers (FXML handlers)
-
+│
 │ │ ├── model/
-
+│
 │ │ │ ├── board/ # Game board, cells, coordinates
-
+│
 │ │ │ ├── plants/ # All plant types (Shooter, SunShroom, CherryBomb, etc.)
-
+│
 │ │ │ ├── zombies/ # All zombie types (Normal, ScreenDoor, Newspaper, etc.)
-
+│
 │ │ │ ├── items/ # Bullets, suns, and collectible items
-
+│
 │ │ │ ├── collision/ # Collision handler logic
-
+│
 │ │ │ ├── enums/ # Game states, plant/zombie types
-
+ر│
 │ │ │ └── GameModel.java # Core model class
-
+│
 │ │ ├── service/ # GameService, PlantService, etc. (manages logic and state)
-
+│
 │ │ ├── util/ # DBConnection, SoundManager, GifManager, Constants
-
+│
 │ │ ├── exceptions/ # Custom exception classes
-
+│
 │ │ └── Main.java # Launcher class
-
+│
 │ └── resources/
-
+│
 │ ├── fxmls/ # UI layout files (Login, MainMenu, Levels, GameBoard, etc.)
-
+│
 │ ├── media/ # Videos, sounds, and GIF assets
-
+│
 └── src/screenshots/ # Project screenshots and demo video
 
 
