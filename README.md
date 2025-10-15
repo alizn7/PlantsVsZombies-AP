@@ -98,20 +98,17 @@ The project uses **MySQL** through **phpMyAdmin**.
 A `DBConnection` singleton class manages the connection.
 
 Example default configuration:
-
-String url = "jdbc:mysql://localhost:3306/plants_vs_zombies";
-
-String user = "root";
-
-String password = "";
+- String url = "jdbc:mysql://localhost:3306/plants_vs_zombies";
+- String user = "root";
+- String password = "";
 
 
 
 Database tables store:
 
-Player info (username, stats)
-Game scores
-Settings / progress
+- Player info (username, stats)
+- Game scores
+- Settings / progress
 
 
 ---
@@ -170,21 +167,17 @@ Modular design follows SOLID and OOP best practices
 
 ## 🎓 Academic Context
 
-📘 Developed as the final project for the Advanced Programming (AP) course
-
-🏫 Department of Computer Engineering, University of Isfahan — Spring 2025
-
-👨‍💻 Individual coursework with full JavaFX implementation
+- 📘 Developed as the final project for the Advanced Programming (AP) course
+- 🏫 Department of Computer Engineering, University of Isfahan — Spring 2025
+- 👨‍💻 Individual coursework with full JavaFX implementation
 
 ---
 
 ## 💬 Author
 
-Ali Zandian
-
-🎓 Computer Engineering Student — University of Isfahan
-
-📫 GitHub: @alizn7
+- Ali Zandian
+- 🎓 Computer Engineering Student — University of Isfahan
+- 📫 GitHub: @alizn7
 
 ---
 
