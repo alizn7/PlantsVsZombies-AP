@@ -34,24 +34,43 @@ The game follows a clean **Model–View–Controller (MVC)** architecture and ap
 
 ## 📂 Project Structure
 src/
+
 ├── main/
+
 │ ├── java/
+
 │ │ ├── controller/ # JavaFX controllers (FXML handlers)
+
 │ │ ├── model/
+
 │ │ │ ├── board/ # Game board, cells, coordinates
+
 │ │ │ ├── plants/ # All plant types (Shooter, SunShroom, CherryBomb, etc.)
+
 │ │ │ ├── zombies/ # All zombie types (Normal, ScreenDoor, Newspaper, etc.)
+
 │ │ │ ├── items/ # Bullets, suns, and collectible items
+
 │ │ │ ├── collision/ # Collision handler logic
+
 │ │ │ ├── enums/ # Game states, plant/zombie types
+
 │ │ │ └── GameModel.java # Core model class
+
 │ │ ├── service/ # GameService, PlantService, etc. (manages logic and state)
+
 │ │ ├── util/ # DBConnection, SoundManager, GifManager, Constants
+
 │ │ ├── exceptions/ # Custom exception classes
+
 │ │ └── Main.java # Launcher class
+
 │ └── resources/
+
 │ ├── fxmls/ # UI layout files (Login, MainMenu, Levels, GameBoard, etc.)
+
 │ ├── media/ # Videos, sounds, and GIF assets
+
 └── src/screenshots/ # Project screenshots and demo video
 
 
@@ -97,16 +116,31 @@ Settings / progress
 
 ---
 
-🖼️ Screenshots
-<p align="center"> <img src="src/screenshots/login.png" width="30%" alt="Login Screen"/> <img src="src/screenshots/register.png" width="30%" alt="Register Screen"/> <img src="src/screenshots/home.png" width="30%" alt="Home Menu"/> </p> <p align="center"> <img src="src/screenshots/levels.png" width="30%" alt="Levels Menu"/> <img src="src/screenshots/board.png" width="30%" alt="Game Board"/> <img src="src/screenshots/gameSetting.png" width="30%" alt="Game Settings"/> </p> <p align="center"> <img src="src/screenshots/scoreboard.png" width="45%" alt="Scoreboard"/> <img src="src/screenshots/setting.png" width="45%" alt="General Settings"/> </p>
+## 🖼️ Screenshots
 
+<p align="center">
+  <img src="screenshots/login.png" width="30%" alt="Login Screen"/>
+  <img src="screenshots/register.png" width="30%" alt="Register Screen"/>
+  <img src="screenshots/home.png" width="30%" alt="Home Menu"/>
+</p>
 
+<p align="center">
+  <img src="screenshots/levels.png" width="30%" alt="Levels Menu"/>
+  <img src="screenshots/board.png" width="30%" alt="Game Board"/>
+  <img src="screenshots/gameSetting.png" width="30%" alt="Game Settings"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/scoreboard.png" width="45%" alt="Scoreboard"/>
+  <img src="screenshots/setting.png" width="45%" alt="General Settings"/>
+</p>
 🎥 Gameplay Demo:
 A short demo video (gameview.mp4, 50 MB) is available inside
 src/screenshots
 
 ---
- ▶️ How to Run
+
+## ▶️ How to Run
 
 Clone the repository:
 
@@ -124,7 +158,7 @@ cd PlantsVsZombies-AP
 
 ---
 
-🧩 Extensibility
+## 🧩 Extensibility
 
 This project was built with scalability in mind:
 Add new Plant or Zombie classes easily by extending base abstract types
@@ -134,7 +168,7 @@ Modular design follows SOLID and OOP best practices
 
 ---
 
-🎓 Academic Context
+## 🎓 Academic Context
 
 📘 Developed as the final project for the Advanced Programming (AP) course
 
@@ -144,7 +178,7 @@ Modular design follows SOLID and OOP best practices
 
 ---
 
-💬 Author
+## 💬 Author
 
 Ali Zandian
 
@@ -154,7 +188,7 @@ Ali Zandian
 
 ---
 
-🪴 License
+## 🪴 License
 
 This project is open for educational and non-commercial use.
 
